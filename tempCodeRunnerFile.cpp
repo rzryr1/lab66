@@ -6,14 +6,11 @@ int main(){
     float odd , even;
     even = 0;
     odd = 0;
-    while(true){
+    cout << "Enter an integer: ";
+    cin >> number;
+    while(number != 0){
         cout << "Enter an integer: ";
-        cin >> number; 
-        if (number == 0)
-        {
-            break;
-        }
-        
+        cin >> number;
         if (number %2 == 0){
             even++;
         }
@@ -28,5 +25,3 @@ int main(){
         
 
 
-
-}
